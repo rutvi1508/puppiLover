@@ -1,0 +1,22 @@
+{"email_address":"Email Address",
+    
+    "login":{
+        "logo_name": "Puppi",
+        "logo_sec_name":"Lovers",
+        "login_sign_up_txt":"Log In / Sign up",
+        "facbook":"Login with Facebook",
+        "apple":"Login with Apple",
+        "google":"Login with Google",
+       "or":"or",
+       "login_with_no":"Login with your phone number",
+       "terms_condition":"Terms and Conditions",
+       "privacy_policy":" Privacy Policy"
+    },
+    "login_with_phone_no":{
+        "phone_no":"Enter your phone number",
+        "sign_sign_using_phone_no":"Sign Up or Sign In by entering your phone number below.",
+        "sign_up":"Sign In",
+        "sign_in":"Sign Up"
+    }
+   
+}

@@ -1,0 +1,89 @@
+@import "../../../../assets/scss/variable.scss";
+
+* {
+  margin: 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.phone-number-container {
+  margin: 0 auto;
+  max-width: 80%;
+  width: 1920px;
+  align-self: center;
+}
+
+.phone-number-sec-box {
+  background-image: url("../../../../assets/images/phone-number-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+  display: flex;
+  height: 788px;
+}
+
+.phone-number-content-sec {
+  .phone-number-logo {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 45px;
+  }
+
+  .phone-logo {
+    width: auto;
+    max-width: 40%;
+    height: 201px;
+  }
+}
+
+.verify-phone-no {
+  border: $login-card-border;
+  border-radius: 10px;
+  background-color: $color-white;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 36px;
+
+  .head-txt {
+    font-size: 30px;
+    line-height: 41px;
+    font-family: OpenSansSemiBold;
+    color: $color-black;
+    text-align: center;
+  }
+  .phone-no-breadcrumbs {
+    font-size: 20px;
+    line-height: 27px;
+    color: #707070;
+    font-family: OpenSansRegular;
+    // width: 86%;
+    text-align: center;
+  }
+
+  .sign-up-buttons {
+    font-size: 20px;
+    line-height: 27px;
+    font-family: OpenSansSemiBold;
+    color: $color-white;
+    text-align: center;
+    border-radius: 25px;
+    height: 50px;
+    width: 280px;
+    margin-bottom: 15px;
+    text-align: center;
+    align-self: center;
+  }
+
+  .sign-up-btn {
+    background-color: $color-black;
+  }
+
+  .sign-in-btn {
+    background-color: #f54d71;
+  }
+}

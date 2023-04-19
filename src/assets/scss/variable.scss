@@ -1,0 +1,23 @@
+@font-face {
+  font-family: CooperStd;
+  src: url("../fonts/Cooper\ Regular.woff");
+}
+
+@font-face {
+  font-family: OpenSansRegular;
+  src: url("../fonts/OpenSans-Regular.woff");
+}
+
+@font-face {
+  font-family: OpenSansSemiBold;
+  src: url("../fonts/OpenSans-SemiBold.woff");
+}
+
+//Colors
+
+$color-white: #ffffff;
+$color-black: #000000;
+
+/* Login Border */
+$login-card-border: 1px solid #ffffff;
+$border: 1px solid #000000;

@@ -1,0 +1,157 @@
+@import "../../../../assets/scss/variable.scss";
+
+* {
+  margin: 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.login-container {
+  margin: 0 auto;
+  max-width: 80%;
+  width: 1920px;
+  align-self: center;
+}
+
+.login-sec-box {
+  background-image: url("../../../../assets/images/login-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+  display: flex;
+  height: 788px;
+}
+
+.login-content-sec {
+  .logo-sec {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 55px;
+
+    .login-logo-img {
+      width: 440.04px !important;
+      height: 195.05px !important;
+    }
+  }
+  .login-box {
+    border: $login-card-border;
+    border-radius: 10px;
+    background-color: $color-white;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    .sign-up-box {
+      padding: 36px;
+      .sign-up-txt {
+        font-size: 30px;
+        line-height: 41px;
+        color: $color-black;
+        font-family: OpenSansSemiBold;
+        text-align: center;
+        padding-bottom: 40px;
+      }
+      .login-facebook-icon {
+        width: 12.98px !important;
+        height: 25px !important;
+      }
+      .login-apple-icon {
+        width: 20.38px !important;
+        height: 25px !important;
+      }
+
+      .login-google-icon {
+        width: 50px !important;
+        height: 50.26px !important;
+      }
+      .login-buttons {
+        font-size: 20px;
+        line-height: 27px;
+        color: $color-white;
+        font-family: OpenSansRegular;
+        text-align: center;
+        border-radius: 25px;
+        height: 50px;
+        width: 350px;
+        margin-bottom: 15px;
+      }
+      .login-facebook {
+        background-color: #3b66c4;
+      }
+      .login-apple {
+        display: flex;
+        justify-content: space-around;
+        background-color: $color-black;
+      }
+      .login-google {
+        background-color: #db4437;
+      }
+    }
+  }
+}
+
+.divider-line {
+  border-color: $color-black !important;
+  width: 240px !important;
+  text-align: center;
+  opacity: 1 !important;
+}
+
+.or-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.or-sec:before,
+.or-sec:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  max-width: 37% !important;
+  align-self: flex-start !important;
+  border-color: #707070 !important;
+  border-width: 2px !important;
+  margin-top: 12px;
+}
+.or-sec:before {
+  margin-right: 20px;
+}
+.or-sec:after {
+  margin-left: 20px;
+}
+
+.or-txt {
+  font-size: 14px !important;
+  line-height: 19px !important;
+  font-family: OpenSansRegular !important;
+  color: $color-black !important;
+  //   padding-top: 20px !important;
+}
+
+.phone-number-txt {
+  font-size: 20px !important;
+  line-height: 27px !important;
+  color: $color-black !important;
+  font-family: OpenSansSemiBold !important;
+  text-align: center !important;
+  margin-bottom: 30px !important;
+  cursor: pointer !important;
+  padding: 0px !important;
+}
+
+.terms-condition-sec {
+  display: flex;
+  justify-content: space-between;
+  .terms-con-txt {
+    font-size: 15px;
+    line-height: 20px;
+    color: #707070;
+    font-family: OpenSansRegular !important;
+    text-align: center;
+  }
+}
