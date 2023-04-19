@@ -42,16 +42,18 @@
 }
 
 .verify-phone-no {
-  border: $login-card-border;
-  border-radius: 10px;
-  background-color: $color-white;
+  border: $login-card-border !important;
+  border-radius: 10px !important;
+  // background-color: $color-white;
   float: right;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 36px;
+  padding: 36px !important;
+  max-width: 500px !important;
+  // height: 400px !important;
 
   .head-txt {
-    font-size: 30px;
-    line-height: 41px;
+    font-size: 30px !important;
+    line-height: 41px !important;
     font-family: OpenSansSemiBold;
     color: $color-black;
     text-align: center;
@@ -63,6 +65,11 @@
     font-family: OpenSansRegular;
     // width: 86%;
     text-align: center;
+    margin-top: 20px;
+  }
+
+  .card-btn-sec {
+    justify-content: center;
   }
 
   .sign-up-buttons {
@@ -84,6 +91,6 @@
   }
 
   .sign-in-btn {
-    background-color: #f54d71;
+    background-color: $color-sky-pink;
   }
 }

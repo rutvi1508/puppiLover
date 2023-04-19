@@ -1,6 +1,14 @@
 import React, { useState, useContext } from "react";
 import "../../auth/PhoneNumber/phoneNumber.scss";
-import { Box, Typography, Button, Stack } from "@mui/material";
+import {
+  Box,
+  Typography,
+  Button,
+  Stack,
+  Card,
+  CardContent,
+  CardActions,
+} from "@mui/material";
 import { ReactComponent as LoginLogo } from "src/assets/images/phone-logo.svg";
 import { IntlContext } from "src/App";
 import PhoneInput from "./PhoneNoComponent";
@@ -19,15 +27,17 @@ function PhoneNumber() {
                 <LoginLogo className="phone-no-logo-img" />
               </Box>
             </Box>
-            <Box className="verify-phone-no">
-              <Typography className="head-txt">
-                {puppi_login?.login_with_phone_no?.phone_no}
-              </Typography>
-              <Typography className="phone-no-breadcrumbs">
-                {puppi_login?.login_with_phone_no?.sign_sign_using_phone_no}
-              </Typography>
-              <PhoneInput />
-              <Box>
+            <Card className="verify-phone-no">
+              <CardContent>
+                <Typography className="head-txt">
+                  {puppi_login?.login_with_phone_no?.phone_no}
+                </Typography>
+                <Typography className="phone-no-breadcrumbs">
+                  {puppi_login?.login_with_phone_no?.sign_sign_using_phone_no}
+                </Typography>
+                <PhoneInput />
+              </CardContent>
+              <CardActions className="card-btn-sec">
                 <Stack direction="column">
                   <Button
                     variant="contained"
@@ -42,8 +52,8 @@ function PhoneNumber() {
                     {puppi_login?.login_with_phone_no?.sign_in}
                   </Button>
                 </Stack>
-              </Box>
-            </Box>
+              </CardActions>
+            </Card>
           </Box>
         </Box>
       </Box>

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "../../auth/Login/loginPage.scss";
-import { Box, Typography, Button, Stack, Divider } from "@mui/material";
+import { Box, Typography, Button, Stack } from "@mui/material";
 import { ReactComponent as LoginLogo } from "src/assets/images/login-logo.svg";
 import { ReactComponent as FaceBook } from "src/assets/images/facebook.svg";
 import { ReactComponent as Apple } from "src/assets/images/apple.svg";

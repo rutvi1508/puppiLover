@@ -1,5 +1,10 @@
-{"email_address":"Email Address",
+{
     
+"validation":{
+    "required_message": "This field is required",
+    "valid_email": "Please enter valid email"
+},
+
     "login":{
         "logo_name": "Puppi",
         "logo_sec_name":"Lovers",
@@ -17,6 +22,29 @@
         "sign_sign_using_phone_no":"Sign Up or Sign In by entering your phone number below.",
         "sign_up":"Sign In",
         "sign_in":"Sign Up"
+    },
+    "create_password":{
+        "welcome":"Welcome!",
+        "welcome_txt":"Seeing as you don’t have an account yet, let’s make you one. Enter a password to make sure your account is secure.",
+        "enter_password":"Enter Password",
+        "repeat_password":"Repeat Password",
+        "login":"Log In"
+    },
+    "why_use_app":{
+        "hii":"Hi there,",
+        "why_using":"Why are you using Puppi Lovers?",
+        "select":"Select as many as you like",
+        "option_first":"Looking for love with another dog lover",
+        "option_second":"Looking for friends who love dogs as much as me",
+        "option_third":"Looking for friends for my dog",
+        "next":"Next",
+        "continue":"Continue profile later"       
+    },
+    "create_account":{
+        "hii":"Hi there,",
+        "last_name_msg":"Your last name will only be shown to matches",
+        "email_msg":"Your email address will never be shared with anyone",
+        "img_upload_content":"Upload a few of your best pictures so people can see what you look like."
     }
    
 }

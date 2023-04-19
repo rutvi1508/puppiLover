@@ -1,0 +1,98 @@
+@import "../../../../assets/scss/variable.scss";
+
+* {
+  margin: 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.create-account-container {
+  margin: 0 auto;
+  max-width: 80%;
+  width: 1920px;
+  align-self: center;
+}
+
+.create-account-sec {
+  background-image: url("../../../../assets/images/use-app-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  //   height: auto;
+  //   display: flex;
+  height: 797px;
+  width: 1598px;
+  //   width: 100% !important;
+  //   height: 100% !important;
+}
+
+.create-account-content-sec {
+  padding-top: 28px;
+  .create-account-logo-sec {
+    padding: 0px !important;
+    padding-top: 100px !important;
+    // display: flex;
+    // justify-content: flex-start;
+    // margin-bottom: 55px;
+
+    .create-account-logo-img {
+      width: 416.88px !important;
+      height: 135.11px !important;
+    }
+  }
+  .create-account-card {
+    border: $login-card-border !important;
+    border-radius: 10px !important;
+    // background-color: $color-white;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    // padding: 36px !important;
+    // max-width: 458px !important;
+    height: 600px !important;
+    width: 630px !important;
+  }
+}
+
+.create-account-card-content {
+  padding: 20px !important;
+  padding-left: 37px !important;
+  .head-txt {
+    font-size: 30px !important;
+    line-height: 41px !important;
+    color: $color-black;
+    font-family: OpenSansSemiBold;
+    padding-bottom: 20px;
+  }
+}
+
+.input-field {
+  color: $color-black !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  font-family: OpenSansSemiBold !important;
+  // padding-bottom: 20px !important;
+}
+
+.account-first-name {
+  padding-bottom: 20px !important;
+}
+
+.child-txt {
+  font-size: 14px;
+  line-height: 19px;
+  color: #707070;
+  font-family: OpenSansRegular;
+  padding-bottom: 20px;
+}
+
+.img-upload-txt {
+  font-size: 16px;
+  line-height: 22px;
+  color: $color-black;
+  font-family: OpenSansSemiBold !important;
+}

@@ -10,11 +10,11 @@
   display: table;
 }
 
-.phone-component-sec{
-    width: 100%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
+.phone-component-sec {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 .phone-no-component {
@@ -28,19 +28,23 @@
     border: none !important;
     border-bottom: $border !important;
     border-radius: 0px !important;
-    width: 195px !important;
+    width: 203px !important;
     padding-left: 0px !important;
-    margin-left: 46px !important;
+    margin-left: 123px !important;
   }
   .flag-dropdown {
     border: none !important;
     border-bottom: $border !important;
     border-radius: 0px !important;
-    left: 26% !important;
+    left: 17% !important;
     // right: 104% !important;
     margin-right: 0px !important;
     // width: 45px !important;
     background-color: transparent !important;
+
+    .country-list {
+      color: black !important;
+    }
   }
   .selected-flag {
     padding: 0px !important;
