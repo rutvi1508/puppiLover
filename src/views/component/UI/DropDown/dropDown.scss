@@ -1,0 +1,41 @@
+@import "../../../../assets/scss/variable.scss";
+
+* {
+  margin: 0;
+}
+
+
+.create-account-select {
+    margin: 0px !important;
+    width: 373.5px !important;
+    margin-top: 50px !important;
+    .select-gender-dropdown {
+      .MuiSelect-select {
+        color: $color-black !important;
+      }
+      .MuiSelect-icon {
+        color: transparent !important;
+        border-width: 0 3px 3px 0 !important;
+        // display: inline-block !important;
+        // padding: 3px !important;
+        transform: rotate(45deg) !important;
+        -webkit-transform: rotate(45deg) !important;
+        font-size: 10px !important;
+        border: solid black;
+      }
+    }
+  }
+  .MuiPopover-paper {
+    border-radius: 25px !important;
+    left: 1104px !important;
+    min-width: 250px !important;
+  }
+  
+  .select-data-dropdown::before {
+    border-bottom: 2px solid $color-sky-pink !important;
+  }
+  
+  .select-data-dropdown::after {
+    border-bottom: 2px solid $color-sky-pink !important;
+  }
+  

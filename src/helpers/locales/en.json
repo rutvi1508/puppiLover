@@ -44,7 +44,13 @@
         "hii":"Hi there,",
         "last_name_msg":"Your last name will only be shown to matches",
         "email_msg":"Your email address will never be shared with anyone",
-        "img_upload_content":"Upload a few of your best pictures so people can see what you look like."
+        "img_upload_content":"Upload a few of your best pictures so people can see what you look like.",
+        "connect_facebook":"Connect Facebook",
+        "connect_Instagram":"Connect Instagram",
+        "date_of_birth":"Date of Birth",
+        "birth_date_content":"Your date of birth will only be shared with people you want to share it with but your age will be public",
+        "gender_content":"Express yourself however you identify or select one of the already existing options",
+        "looking_for_content":"Show me to people who are looking for"
     }
    
 }
