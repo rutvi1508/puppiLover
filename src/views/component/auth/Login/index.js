@@ -33,21 +33,21 @@ function LoginPage() {
                     className="login-buttons login-facebook"
                     startIcon={<FaceBook className="login-facebook-icon" />}
                   >
-                    {puppi_login?.login?.facbook}
+                    <Typography className="loign-social-media-txt">{puppi_login?.login?.facbook}</Typography>
                   </Button>
                   <Button
                     variant="contained"
-                    className="login-buttons login-apple"
+                    className="login-buttons login-apple app-icon"
                     startIcon={<Apple className="login-apple-icon" />}
                   >
-                    {puppi_login?.login?.apple}
+                    <Typography className="loign-social-media-txt">{puppi_login?.login?.apple}</Typography>
                   </Button>
                   <Button
                     variant="contained"
-                    className="login-buttons login-google"
+                    className="login-buttons login-google google-icon"
                     startIcon={<Google className="login-google-icon" />}
                   >
-                    {puppi_login?.login?.google}
+                    <Typography className="loign-social-media-txt">{puppi_login?.login?.google}</Typography>
                   </Button>
                 </Stack>
                 <Box className="or-sec">

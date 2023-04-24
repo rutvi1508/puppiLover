@@ -38,9 +38,7 @@ function CreatePassword() {
     event.preventDefault();
   };
 
-  const handlePasswordChange = (prop) => (event) => {
-    setValues({ ...passwordvalues, [prop]: event.target.value });
-  };
+
 
   const [repeatvalues, setRepeatValues] = React.useState({
     repeatpassword: "",
@@ -58,9 +56,7 @@ function CreatePassword() {
     event.preventDefault();
   };
 
-  const handleRepeatPasswordChange = (prop) => (event) => {
-    setRepeatValues({ ...repeatvalues, [prop]: event.target.value });
-  };
+ 
 
   return (
     <div>

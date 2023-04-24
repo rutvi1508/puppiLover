@@ -114,11 +114,11 @@ const ImageUploader = () => {
                   </div>
                 </form>
                 <div className="kb-attach-box ">
-                {/*   <Box className="skeleten-avtar">
+                 <Box className="skeleten-avtar">
                     <Avatar variant="square" className="upload-skeleten">
                       <UploadSkeleten className="skeleten" />
                     </Avatar>
-                  </Box> */}
+                  </Box> 
                   {selectedfile.map((data, index) => {
                     const {
                       id,

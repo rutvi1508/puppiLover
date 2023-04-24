@@ -23,12 +23,8 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  //   height: auto;
-  //   display: flex;
   height: 797px;
   width: 1598px;
-  //   width: 100% !important;
-  //   height: 100% !important;
 }
 
 .use-app-content-sec {
@@ -36,10 +32,6 @@
   .use-app-logo-sec {
     padding: 0px !important;
     padding-top: 100px !important;
-    // display: flex;
-    // justify-content: flex-start;
-    // margin-bottom: 55px;
-
     .use-app-logo-img {
       width: 416.88px !important;
       height: 135.11px !important;
@@ -48,11 +40,8 @@
   .use-app-card {
     border: $login-card-border !important;
     border-radius: 10px !important;
-    // background-color: $color-white;
     float: right;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    // padding: 36px !important;
-    // max-width: 458px !important;
     height: 600px !important;
     width: 630px !important;
   }

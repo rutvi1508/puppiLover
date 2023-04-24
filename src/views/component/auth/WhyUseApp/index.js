@@ -6,7 +6,6 @@ import {
   CardContent,
   Grid,
   Typography,
-  CardActions,
   FormControl,
   FormGroup,
   FormControlLabel,
@@ -20,7 +19,6 @@ import { ReactComponent as Puppybtn } from "src/assets/images/puppy-btn.svg";
 import { IntlContext } from "src/App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useNavigate } from "react-router-dom";
-// import "bootstrap/dist/js/bootstrap.bundle.min";
 
 function WhyUseApp() {
   const intlContext = useContext(IntlContext);

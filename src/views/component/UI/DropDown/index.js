@@ -1,12 +1,7 @@
-import React from "react";
-import {
-  Select,
-  Input,
-  InputLabel,
-  MenuItem,
-  FormControl,
-} from "@mui/material";
+import React, { useState, useEffect } from "react";
+import { Select, FormControl, MenuItem } from "@mui/material";
 import "./dropDown.scss";
+import _ from "lodash";
 
 const DropDown = ({
   handleChange,
@@ -14,9 +9,17 @@ const DropDown = ({
   labelId,
   value,
   label,
-  Peopleoptions,
-  option,
+  dropdownArray,
 }) => {
+  const [DDArray, setDDArray] = useState([]);
+
+  useEffect(() => {
+    setDDArray(dropdownArray);
+    console.log("dropdownArray", dropdownArray);
+    // setOpen(false);
+  }, [dropdownArray]);
+
+  const sortedArray = _.sortBy(DDArray, "name");
   return (
     <div>
       <FormControl className="create-account-select">
@@ -31,11 +34,15 @@ const DropDown = ({
           label={label}
           className="select-gender-dropdown"
         >
-          {Peopleoptions.map((option) => (
-            <MenuItem key={option} value={option} Peopleoptions={Peopleoptions}>
-              {option}
-            </MenuItem>
-          ))}
+          {sortedArray.map((value, option) => {
+            console.log("valuewed", value);
+            console.log("valuewed", option);
+            return (
+              <>
+                <MenuItem key={option} value={value}></MenuItem>
+              </>
+            );
+          })}
         </Select>
       </FormControl>
     </div>
